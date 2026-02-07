@@ -35,11 +35,13 @@ h2 {
 .profile-pic {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #333;
-  margin-bottom: 20px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid white;
 }
+
 
 .tagline {
   font-size: 1.2rem;
@@ -89,3 +91,4 @@ footer {
 .center-heading {
   text-align: center;
 }
+
